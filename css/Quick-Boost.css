@@ -5,31 +5,59 @@
 
 
 Body{
-    background: rgb(2,214,206);
-    background: linear-gradient(58deg, rgba(2,214,206,1) 21%, rgba(246,2,100,1) 61%); 
-    height: 1000px;
+   
+    background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
+    
     width: 99%;
 }
 
 .logo{
     width: 300px;
-    height: 200px;
+    height: 280px;
+    position: relative;
+    top: -70px;
 }
 
 .footer{
     height: 50px;
     color: white;
-    background: rgb(246,2,100);
-    background: linear-gradient(90deg, rgba(246,2,100,1) 48%, rgba(2,214,206,1) 50%);
-    width: 100%;
     
+    background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+    width: 101%;
+    
+    margin-left: -10px;
 }
 
 .footer-text{
-    position: relative;
-    top: 15px;
+    display: none;
+    position: absolute;
+    top: 10px;
     margin-left: 10px;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
   
+}
+
+#menu{
+    list-style: none;
+    
+}
+
+.hoofdnav {
+ 
+    position: relative;
+    top: -250px;
+    left: 700px;
+    padding-left: 80px;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    font-size: 35px;
+    color: white;
+    
+    
+}
+
+a:hover{
+    text-decoration: underline;
 }
