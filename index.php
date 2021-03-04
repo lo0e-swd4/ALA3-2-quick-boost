@@ -11,12 +11,13 @@
     	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
         <title>Quick Boost</title>
         <link rel="stylesheet" type="text/css" href="css/Quick-Boost.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-         
-
+         <img src="images/logo.png" class="logo">
            
         </header>
 
@@ -29,7 +30,9 @@
         </main>
 
         <footer>
-
+            <article class="footer">
+                <p class="footer-text">©Copyright Quick Boost 2021</p>
+            </article>
         </footer>
         
     
