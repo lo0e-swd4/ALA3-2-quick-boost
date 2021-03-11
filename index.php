@@ -11,6 +11,7 @@
     	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
         <title>Quick Boost</title>
         <link rel="stylesheet" type="text/css" href="css/Quick-Boost.css">
+        <script src="JS/home.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
@@ -39,6 +40,9 @@
 
 
 
+            <article class="drieaanbieddingen">
+                <img class="drieblikjes"    src="images/adblikjes.png">
+            </article>
         </main>
 
         <footer>

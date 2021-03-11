@@ -43,6 +43,12 @@ Body{
     
 }
 
+.drieblikjes{
+    width: 100px;
+    height: 100px;
+
+}
+
 .hoofdnav {
  
     position: relative;
@@ -61,3 +67,4 @@ Body{
 a:hover{
     text-decoration: underline;
 }
+
