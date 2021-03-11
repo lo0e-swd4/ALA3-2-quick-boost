@@ -41,7 +41,7 @@
 
 
             <article class="drieaanbieddingen">
-                <img class="drieblikjes"    src="images/adblikjes.png">
+                <img class="drieblikjes"  src="images/adblikjes.png">
             </article>
         </main>
 
