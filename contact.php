@@ -55,6 +55,16 @@
                 <li>How much are the drinks?</li>
                 <li>Where can u get the tickets?</li>
             </ul>
+
+        <section id="container3">
+            <p>ANSWERS</p>
+            <ul>
+                <li>Where is the event?</li>
+                <li>Where can u get drinks?</li>
+                <li>What time does the event start?</li>
+                <li>How much are the drinks?</li>
+                <li>Where can u get the tickets?</li>
+            </ul>
         </section>
 
     </main>
