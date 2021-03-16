@@ -21,10 +21,11 @@
         <article class="nav">
             <nav>
                 <ul id="menu">
-                    <li><a class="hoofdnav" href="#">Home</a></li>
-                    <li><a class="hoofdnav" href="#">About</a></li>
-                    <li><a class="hoofdnav" href="#">Events</a></li>
-                    <li><a class="hoofdnav" href="#">Contact</a></li>
+                <li><a class="hoofdnav" href="#">Home</a></li>
+                <li><a class="hoofdnav" href="#">About</a></li>
+                <li><a class="hoofdnav" href="#">Events</a></li>
+                <li><a class="hoofdnav" href="#">Contact</a></li>
+                
                 </ul>
             </nav>
         </article>
@@ -35,11 +36,10 @@
 
 
         <section id="container1">
-            <p><img src="images/phone-call.png" alt=""> 010-1234567</p>
-            <p><img src="images/phone-call.png" alt=""> 010-1234567</p>
-            <p><img src="images/phone-call.png" alt=""> 010-1234567</p>
-            <p><img src="images/phone-call.png" alt=""> 010-1234567</p>
-            <p><img src="images/phone-call.png" alt=""> 010-1234567</p>
+            <p><img id="icon1" src="images/phone-call.png" alt="">070-249-325</p>
+            <p><img id="icon1" src="images/email.png" alt="">quickboost@gmail.com</p>
+            <p><img id="icon1" src="images/pin.png" alt="">LA</p>
+            
 
         </section>
 

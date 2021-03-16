@@ -43,6 +43,12 @@ header  {
 #menu{
     list-style: none;
     display: flex;
+   padding-left: 400px;
+   padding-top: 30px;
+}
+
+#icon1{
+    width: 20px;
 }
 
 .hoofdnav {
@@ -58,12 +64,6 @@ a:hover{
 }
 
 
-#tekst1{
-    color: white;
-    font-size: 35px;
-    font-weight: bolder;
-    padding-left: 50vw;
-}
 
 main {   
     display: flex;
