@@ -7,77 +7,185 @@ Body{
     width: 99%;
 }
 
-.logo{
-    width: 300px;
-    height: 280px;
-    position: relative;
-    top: -70px;
+
+
+
+/*bigscreen*/
+@media only screen and (min-device-width : 1024px) { 
+
+    Body{
+        background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
+        width: 99%;
+    }
+    
+    .logo{
+        width: 300px;
+        height: 280px;
+        position: relative;
+        top: -70px;
+    }
+    
+    .footer{
+        height: 50px;
+        color: white;    
+        background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+        width: 101%;   
+        margin-left: -10px;
+    }
+    
+    .footer-text{
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 20px;
+      
+    }
+    
+    header  {
+        display: flex;
+    }
+    
+    #menu{
+        list-style: none;
+        display: flex;
+        padding-left: 400px;
+        padding-top: 30px;
+    }
+    
+    .hoofdnav {
+        padding-left: 80px;
+        text-decoration: none;
+        list-style: none;
+        font-size: 40px;
+        color: white;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+    }
+    
+
+    #icon1{
+        width: 30px;
+    }
+    
+    .bigscreen{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    #container1{
+        margin: 0;
+        padding: 0;
+        margin-right: 50px;
+        font-size: 25px; 
+    }
+    
+    #container1 img{
+        padding-right: 10px;
+    }
+    
+    #container2{  
+        margin: 0;
+        padding: 0;
+        border: 4px solid white;
+        color: white;
+        font-size: 25px;
+        font-weight: bolder;   
+        margin-left: 50px;
+        margin-bottom: 80px;
+    }
+    
+    #container2 p{
+        font-size: 30px;
+        padding-left: 40px;
+    }
+    
+
+
+
 }
 
-.footer{
-    height: 50px;
-    color: white;    
-    background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
-    width: 101%;   
-    margin-left: -10px;
-}
 
-.footer-text{
-    margin-left: 10px;
-    font-size: 20px;
-    margin-top: 20px;
-  
-}
 
-header  {
-    display: flex;
-}
+/*tablet potrait*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
 
-#menu{
-    list-style: none;
-    display: flex;
-    padding-left: 400px;
-    padding-top: 30px;
-}
+    Body{
+        background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
+        width: 99%;
+    }
+    
+    .logo{
+        width: 150px;
+        height: 280px;
+        position: relative;
+        top: -70px;
+    }
+    
+    .footer{
+        height: 50px;
+        color: white;    
+        background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+        width: 101%;   
+        margin-left: -10px;
+    }
+    
+    .footer-text{
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 20px;
+      
+    }
+    
+    header  {
+        display: flex;
+    }
+    
+    #menu{
+        list-style: none;
+        display: flex;        
+        padding-top: 30px;
+    }
+    
+    .hoofdnav {
+        padding-left: 50px;
+        text-decoration: none;
+        list-style: none;
+        font-size: 25px;
+        color: white;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    .bigscreen{
+    display: none;
+    }
 
-#icon1{
+    #icon1{
     width: 30px;
-}
+    }
 
-
-
-
-.hoofdnav {
-    padding-left: 80px;
-    text-decoration: none;
-    list-style: none;
-    font-size: 40px;
-    color: white;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-
-
-main {   
+    .bigscreen{
     display: flex;
     justify-content: center;
-}
+    }
 
-#container1{
+
+    #container1{
     margin: 0;
     padding: 0;
     margin-right: 50px;
     font-size: 25px; 
-}
+    }
 
-#container1 img{
+    #container3 img{
     padding-right: 10px;
-}
+    }
 
-#container2{  
+    #container4{  
     margin: 0;
     padding: 0;
     border: 4px solid white;
@@ -85,10 +193,22 @@ main {
     font-size: 25px;
     font-weight: bolder;   
     margin-left: 50px;
-    margin-bottom: 105px;
-}
+    margin-bottom: 80px;
+    }
 
-#container2 p{
+    #container4 p{
     font-size: 30px;
     padding-left: 40px;
+    }
+
+
+}
+
+/*ipad landscape*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.bigscreen{
+    display: none;
+}
+
 }
