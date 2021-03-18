@@ -44,29 +44,18 @@
         </section>
 
 
-
-
         <section id="container2">
             <p>FAQ</p>
             <ul>
-                <li>Where is the event?</li>
-                <li>Where can u get drinks?</li>
-                <li>What time does the event start?</li>
-                <li>How much are the drinks?</li>
-                <li>Where can u get the tickets?</li>
+                <li>Where is the event?<br>The locations differ per event. You can find this information under the tab "events".</li>
+                <li>Where can u get drinks?<br>At the bar you can get al sort of beverages.</li>
+                <li>What time does the event start?<br>Each event starts at a different time. You can find this information under the tab "events".</li>
+                <li>With what do you pay for a drink?<br>U can buy special coins to pay for your drinks.</li>
+                <li>Where can u get the tickets?<br>U can find the tickets under the tab "events".</li>
             </ul>
 
-        <section id="container3">
-            <p>ANSWERS</p>
-            <ul>
-                <li>Where is the event?</li>
-                <li>Where can u get drinks?</li>
-                <li>What time does the event start?</li>
-                <li>How much are the drinks?</li>
-                <li>Where can u get the tickets?</li>
-            </ul>
-        </section>
-
+        <section>
+            
     </main>
 
     <footer>
