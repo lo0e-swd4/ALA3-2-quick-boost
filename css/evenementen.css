@@ -1,0 +1,10 @@
+#item-nav ul{
+    display: flex;
+    margin-left: 60vw;
+    margin-top: -5vw;
+  }
+
+  .logo {
+    padding-left: 10px;
+    margin-top: 20px;
+  }
