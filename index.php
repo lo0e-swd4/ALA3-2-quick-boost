@@ -1,5 +1,13 @@
 
+<?php
+  $conn = new mysqli('localhost', 'root', '','energy');
+  $sql = "SELECT titel, omschrijving, afbeelding FROM aanbiedingen;";
+  $result = $conn->query($sql);
+  $aanbieding = $result->fetch_row();
+  
+?>
 <!doctype html>
+
 <html>
     <head>
         <meta charset="utf-8"><meta http-equiv="language" content="NL">
@@ -35,19 +43,18 @@
         </header>
 
         <main>
-
-               
-
-
-
-            <article class="drieaanbieddingen">
-                <img class="drieblikjes"  src="images/adblikjes.png">
+       <?php if(isset($aanbieding)) { ?>
+            <article class="aanbiedding-text">
+                <img src="images/<?php echo $aanbieding[2]; ?>" class="drieblikjes">
             </article>
-        </main>
+       <?php } ?>
 
+
+
+        </main>
         <footer>
             <article class="footer">
-                <p class="footer-text">©Copyright Quick Boost 2021</p>
+                <p class="footertekst">©Copyright Quick Boost 2021</p>
             </article>
         </footer>
         
