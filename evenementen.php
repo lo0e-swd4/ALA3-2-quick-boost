@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
     	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
         <title>evenementen</title>
-        <link rel="stylesheet" type="text/css" href="css/Quick-Boost.css">
+        <link rel="stylesheet" type="text/css" href="css/evenementen.css">
         <script src="JS/home.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -35,13 +35,11 @@
         </header>
 
         <main>
-
+            <article class="drake-img-box">
+            <img src="images/drake.png" class="drake-img">
+</article>
+        </main>
                
-
-
-
-            
-
         <footer>
             <article class="footer">
                 <p class="footer-text">©Copyright Quick Boost 2021</p>

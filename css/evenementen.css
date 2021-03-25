@@ -1,10 +1,138 @@
-#item-nav ul{
-    display: flex;
-    margin-left: 60vw;
-    margin-top: -5vw;
-  }
+*{
+  font-family: 'Roboto', sans-serif;
+}
 
-  .logo {
-    padding-left: 10px;
-    margin-top: 20px;
-  }
+
+
+Body{
+  display: block;
+  background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
+  width: 99%;
+}
+
+.logo{
+  display: block;
+  width: 300px;
+  height: 280px;
+  position: relative;
+  top: -70px;
+}
+
+.footer{
+
+  height: 50px;
+  color: white;
+  margin-top: 10px;
+  background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+  width: 101%;
+  margin-left: -10px;
+}
+
+.footertext{
+  display: block;
+  position: absolute;
+  top: 40px;
+  margin-left: 15px;
+  font-size: 20px;
+  color: black;
+
+}
+
+
+.drake-img-box{
+  
+  position: relative;
+  height: 800px;
+}
+
+.drake-img{
+  height: 600px;
+  width: 500px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+
+#menu{
+  display: block;
+  list-style: none;
+
+}
+
+.adblikjes{
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.drieblikjes{
+  display: block;
+  position: relative;
+  left: -200px;
+  top: -200px;
+  width: 1200px;
+  height: 700px;
+
+}
+
+.images{
+  display: block;
+  position: relative;
+  top: 100px;
+  width: 900px;
+  height: 600px;
+}
+
+
+
+
+.hoofdnav {
+  display: block;
+  position: relative;
+  top: -250px;
+  left: 700px;
+  padding-left: 80px;
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  font-size: 35px;
+  color: white;
+
+
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+/*telefoon*/
+
+@media screen and (max-width: 767px){
+}
+
+/*landscape phone*/
+@media (min-width : 319px) and (max-width: 480px){
+  
+}
+
+/*ipad landscape*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+  
+}
+
+/*tablet potrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation : portrait) { 
+
+}

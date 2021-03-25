@@ -111,29 +111,138 @@ a:hover{
     
     .logo{
         display: block;
-        width: 300px;
-        height: 280px;
+        width: 120px;
+        height: 150px;
         position: relative;
-        top: -70px;
+        top: -50px;
     }
     
     .footer{
         
         height: 50px;
         color: white;
-        margin-top: 10px;
+        margin-top: 525px;
         background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
         width: 101%;
         margin-left: -10px;
     }
     
-    .footertext{
+    .footertekst{
         display: block;
         position: absolute;
-        top: 40px;
-        margin-left: 15px;
-        font-size: 20px;
-        color: black;
+        top: 690px;
+        margin-left: 10px;
+        font-size: 12px;
+        color:  white;
+      
+    }
+    
+    #menu{
+        display: block;
+        list-style: none;
+        
+    }
+    
+    .adblikjes{
+        display: block;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .drieblikjes{
+        display: none;
+    }
+    
+    .images{
+        display: block;
+        position: relative;
+        top: 100px;
+        width: 900px;
+        height: 600px;
+    }
+    
+    
+    
+    
+    .hoofdnav {
+        display: block;
+        position: relative;
+        top: -150px;
+        left: 80px;
+        padding-left: 10px;
+        text-decoration: none;
+        list-style: none;
+        float: left;
+        font-size: 15px;
+        color: white;
+        
+        
+    }
+    
+    a:hover{
+        text-decoration: underline;
+    }
+    
+}
+
+/*landscape phone*/
+@media (min-width : 319px) and (max-width: 480px){
+
+}
+
+/*ipad landscape*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    Body{
+        display: block;
+        
+        width: 99%;
+    }
+    
+}
+
+/*tablet potrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation : portrait) { 
+    *{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    
+    Body{
+        display: block;
+        background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
+        width: 99%;
+    }
+    
+    .logo{
+        display: block;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: -50px;
+    }
+    
+    .footer{
+        
+        height: 50px;
+        color: white;
+        margin-top: 760px;
+        background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+        width: 101%;
+        margin-left: -10px;
+    }
+    
+    .footertekst{
+        display: block;
+        position: absolute;
+        top: 1715px;
+        margin-left: 10px;
+        font-size: 15px;
+        color:  white;
       
     }
     
@@ -151,12 +260,11 @@ a:hover{
     
     .drieblikjes{
         display: block;
-        position: relative;
-        left: -200px;
-        top: -200px;
-        width: 1200px;
-        height: 700px;
-    
+    position: relative;
+    left: -190px;
+    top: -150px;
+    width: 1100px;
+    height: 700px;
     }
     
     .images{
@@ -173,13 +281,13 @@ a:hover{
     .hoofdnav {
         display: block;
         position: relative;
-        top: -250px;
-        left: 700px;
-        padding-left: 40px;
+        top: -180px;
+        left: 350px;
+        padding-left: 10px;
         text-decoration: none;
         list-style: none;
         float: left;
-        font-size: 20px;
+        font-size: 25px;
         color: white;
         
         
@@ -191,22 +299,3 @@ a:hover{
     
 }
 
-/*landscape phone*/
-@media (min-width : 319px) and (max-width: 480px){
-    
-}
-
-/*ipad landscape*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-
-    
-}
-
-/*tablet potrait*/
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)
-and (orientation : portrait) { 
-
-}
