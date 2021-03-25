@@ -7,7 +7,6 @@
 Body{
     display: block;
     background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
-    
     width: 99%;
 }
 
@@ -107,14 +106,13 @@ a:hover{
     Body{
         display: block;
         background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
-        
         width: 99%;
     }
     
     .logo{
-        
-        width: 0px;
-        height: 0px;
+        display: block;
+        width: 300px;
+        height: 280px;
         position: relative;
         top: -70px;
     }
@@ -129,12 +127,12 @@ a:hover{
         margin-left: -10px;
     }
     
-    .footertekst{
+    .footertext{
         display: block;
         position: absolute;
         top: 40px;
-        margin-left: 10px;
-        font-size: 10px;
+        margin-left: 15px;
+        font-size: 20px;
         color: black;
       
     }
@@ -146,16 +144,27 @@ a:hover{
     }
     
     .adblikjes{
-        display: none;
+        display: block;
+        width: 200px;
+        height: 200px;
     }
     
     .drieblikjes{
-        display: none;
+        display: block;
+        position: relative;
+        left: -200px;
+        top: -200px;
+        width: 1200px;
+        height: 700px;
+    
     }
     
     .images{
-        display: none;
-        
+        display: block;
+        position: relative;
+        top: 100px;
+        width: 900px;
+        height: 600px;
     }
     
     
@@ -166,11 +175,11 @@ a:hover{
         position: relative;
         top: -250px;
         left: 700px;
-        padding-left: 80px;
+        padding-left: 40px;
         text-decoration: none;
         list-style: none;
         float: left;
-        font-size: 35px;
+        font-size: 20px;
         color: white;
         
         
@@ -179,8 +188,6 @@ a:hover{
     a:hover{
         text-decoration: underline;
     }
-    
-    
     
 }
 
