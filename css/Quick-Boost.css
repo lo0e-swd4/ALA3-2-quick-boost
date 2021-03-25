@@ -72,15 +72,10 @@ Body{
 
 
 .hoofdnav {
-    display: block;
-    position: relative;
-    top: -250px;
-    left: 700px;
     padding-left: 80px;
     text-decoration: none;
     list-style: none;
-    float: left;
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     
     
@@ -286,7 +281,7 @@ and (orientation : portrait) {
         padding-left: 10px;
         text-decoration: none;
         list-style: none;
-        float: left;
+        
         font-size: 25px;
         color: white;
         
