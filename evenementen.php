@@ -35,8 +35,8 @@
         </header>
 
         <main>
-            <article class="drake-img">
-            <img src="images/drake.png">
+            <article class="drake-img-box">
+            <img src="images/drake.png" class="drake-img">
 </article>
         </main>
                

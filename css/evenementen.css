@@ -6,7 +6,7 @@
 
 Body{
   display: block;
-  background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+  background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
   width: 99%;
 }
 
@@ -18,14 +18,8 @@ Body{
   top: -70px;
 }
 
-.drake-img{
-  margin-left: 10px;
-  position: relative;
-  height: 200px;
-}
-
 .footer{
-  
+
   height: 50px;
   color: white;
   margin-top: 10px;
@@ -44,10 +38,26 @@ Body{
 
 }
 
+
+.drake-img-box{
+  
+  position: relative;
+  height: 800px;
+}
+
+.drake-img{
+  height: 600px;
+  width: 500px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+
 #menu{
   display: block;
   list-style: none;
-  
+
 }
 
 .adblikjes{
@@ -88,8 +98,8 @@ Body{
   float: left;
   font-size: 35px;
   color: white;
-  
-  
+
+
 }
 
 a:hover{
@@ -100,93 +110,10 @@ a:hover{
 
 
 
+
 /*telefoon*/
 
 @media screen and (max-width: 767px){
-  *{
-      font-family: 'Roboto', sans-serif;
-  }
-  
-  
-  
-  Body{
-      display: block;
-      background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
-      
-      width: 99%;
-  }
-  
-  .logo{
-      
-      width: 0px;
-      height: 0px;
-      position: relative;
-      top: -70px;
-  }
-  
-  .footer{
-      
-      height: 50px;
-      color: white;
-      margin-top: 10px;
-      background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
-      width: 101%;
-      margin-left: -10px;
-  }
-  
-  .footertekst{
-      display: block;
-      position: absolute;
-      top: 40px;
-      margin-left: 10px;
-      font-size: 10px;
-      color: black;
-    
-  }
-  
-  #menu{
-      display: block;
-      list-style: none;
-      
-  }
-  
-  .adblikjes{
-      display: none;
-  }
-  
-  .drieblikjes{
-      display: none;
-  }
-  
-  .images{
-      display: none;
-      
-  }
-  
-  
-  
-  
-  .hoofdnav {
-      display: block;
-      position: relative;
-      top: -250px;
-      left: 700px;
-      padding-left: 80px;
-      text-decoration: none;
-      list-style: none;
-      float: left;
-      font-size: 35px;
-      color: white;
-      
-      
-  }
-  
-  a:hover{
-      text-decoration: underline;
-  }
-  
-  
-  
 }
 
 /*landscape phone*/
@@ -197,6 +124,7 @@ a:hover{
 /*ipad landscape*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
 
   
 }
