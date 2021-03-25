@@ -2,7 +2,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
+header{
+    display: flex;
+    flex-direction: row;
+}
 
 Body{
     display: block;
@@ -39,7 +42,8 @@ Body{
 }
 
 #menu{
-    display: block;
+    display: flex;
+    flex-direction: row;
     list-style: none;
     
 }
@@ -72,6 +76,7 @@ Body{
 
 
 .hoofdnav {
+    
     padding-left: 80px;
     text-decoration: none;
     list-style: none;
