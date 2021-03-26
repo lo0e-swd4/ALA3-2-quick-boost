@@ -3,7 +3,7 @@ var slides;
 var count= 0;
 
 window.onload = function(){
-    slideshow = document.getElementById('slideShow');
+    slideShow = document.getElementById('slideShow');
     slides = ['ad1.png', 'ad2.png', 'ad3.png'];
 
     setInterval(showSlides, 1000);
