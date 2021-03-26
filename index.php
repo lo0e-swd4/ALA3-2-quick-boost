@@ -19,7 +19,7 @@
     	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
         <title>Quick Boost</title>
         <link rel="stylesheet" type="text/css" href="css/Quick-Boost.css">
-        <script src="JS/home.js"></script>
+        <script src="js/homepage.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
@@ -49,7 +49,7 @@
             </article>
        <?php } ?>
 
-
+        <div id="slideShow" style="width: 200px; heigth: 200px; display: block; background-size: 100% 100%;">
 
         </main>
         <footer>
