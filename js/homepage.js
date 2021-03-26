@@ -3,7 +3,7 @@ var slides;
 var count= 0;
 
 window.onload = function(){
-    slideshow = document.getElementById("slideShow");
+    slideshow = document.getElementById('slideShow');
     slides = ['ad1.png', 'ad2.png', 'ad3.png'];
 
     setInterval(showSlides, 1000);
@@ -11,7 +11,7 @@ window.onload = function(){
 }
 
 function showSlides(){
-    slideShow.style.backgroundImage = "url(images/" + slides[count] + ")";
+    slideShow.style.backgroundImage = 'url(images/" + slides[count] + ")';
     if(count >= 2){
         count = 0;
     }else{

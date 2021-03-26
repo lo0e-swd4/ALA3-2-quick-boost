@@ -2,6 +2,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+#slideShow{
+    position: absolute;
+    top: 230px;
+    left: 730px;
+    display: block;
+    height: 510px;
+    width: 700px;
+    border-style: solid;
+    border-color: white;   
+}
+
+
 header{
     display: flex;
     flex-direction: row;
@@ -11,6 +24,7 @@ Body{
     display: block;
     background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
     width: 99%;
+    
 }
 
 .logo{
@@ -52,24 +66,16 @@ Body{
     display: block;
     width: 200px;
     height: 200px;
+    
 }
 
 .drieblikjes{
     display: block;
     position: relative;
-    left: -200px;
+    left: -280px;
     top: -150px;
     width: 1200px;
     height: 700px;
-
-}
-
-.images{
-    display: block;
-    position: relative;
-    top: 100px;
-    width: 900px;
-    height: 600px;
 }
 
 
