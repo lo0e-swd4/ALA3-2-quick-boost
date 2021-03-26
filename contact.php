@@ -21,10 +21,10 @@
     <article class="nav">
         <nav>
             <ul id="menu">
-            <li><a class="hoofdnav" href="#">Home</a></li>
-            <li><a class="hoofdnav" href="#">About</a></li>
-            <li><a class="hoofdnav" href="#">Events</a></li>
-            <li><a class="hoofdnav" href="#">Contact</a></li>
+            <a class="hoofdnav" href="index.php"><li>Home</li></a>
+                        <a class="hoofdnav" href="#"><li>About</li></a>
+                        <a class="hoofdnav" href="evenementen.php"><li>Events</li></a>
+                        <a class="hoofdnav" href="contact.php"><li>Contact</li></a>
             </ul>
         </nav>
     </article>
