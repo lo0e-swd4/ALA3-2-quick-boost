@@ -4,7 +4,7 @@ var count= 0;
 
 window.onload = function(){
     slideShow = document.getElementById('slideShow');
-    slides = ['ad1.png', 'ad2.png', 'ad3.png'];
+    slides = ['advertentie1.png', 'advertentie2.png', 'advertentie3.png'];
 
     setInterval(showSlides, 1000);
 

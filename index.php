@@ -50,6 +50,7 @@
        <?php } ?>
 
         <div id="slideShow"></div>
+        
 
         </main>
         <footer>
