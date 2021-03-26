@@ -22,7 +22,7 @@ Body{
 
   height: 50px;
   color: white;
-  margin-top: 10px;
+  margin-top: 300px;
   background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
   width: 101%;
   margin-left: -10px;
@@ -39,13 +39,12 @@ Body{
 }
 
 
-.drake-img-box{
-  
-  position: relative;
-  height: 800px;
-}
+
 
 .drake-img{
+  position: relative;
+  top: -60px;
+  left: -600px;
   height: 600px;
   width: 500px;
   border-style: solid;
