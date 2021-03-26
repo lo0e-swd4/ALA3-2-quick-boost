@@ -40,8 +40,8 @@ Body{
 
 
 .drake-img-box{
-  margin-left: 10px;
-  position: absolute;
+  margin-right: -10px;
+  position: relative;
   height: 800px;
 }
 
