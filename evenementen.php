@@ -37,7 +37,7 @@
         <main>
             <article class="drake-img-box">
             <img src="images/drake.png" class="drake-img">
-</article>
+            </article>
         </main>
                
         <footer>
