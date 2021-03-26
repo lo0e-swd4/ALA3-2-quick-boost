@@ -19,7 +19,7 @@
     	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
         <title>Quick Boost</title>
         <link rel="stylesheet" type="text/css" href="css/Quick-Boost.css">
-        <script src="JS/home.js"></script>
+        <script src="js/homepage.js"></script> 
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
@@ -43,13 +43,14 @@
         </header>
 
         <main>
-       <?php if(isset($aanbieding)) { ?>
+        <?php if(isset($aanbieding)) { ?>
             <article class="aanbiedding-text">
                 <img src="images/<?php echo $aanbieding[2]; ?>" class="drieblikjes">
             </article>
        <?php } ?>
 
-
+        <div id="slideShow"></div>
+        
 
         </main>
         <footer>

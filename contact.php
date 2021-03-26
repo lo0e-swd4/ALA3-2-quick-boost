@@ -16,154 +16,40 @@
 
 <body>
   
-    <header style="height: 150px;">
-         <img src="images/logo.png" class="logo">
-        <article class="nav">
-            <nav>
-                <ul id="menu">
-                <li><a class="hoofdnav" href="#">Home</a></li>
-                <li><a class="hoofdnav" href="#">About</a></li>
-                <li><a class="hoofdnav" href="#">Events</a></li>
-                <li><a class="hoofdnav" href="#">Contact</a></li>
-                
-                </ul>
-            </nav>
-        </article>
-    </header>
+<header style="height: 150px;">
+    <img src="images/logo.png" class="logo">
+    <article class="nav">
+        <nav>
+            <ul id="menu">
+            <li><a class="hoofdnav" href="#">Home</a></li>
+            <li><a class="hoofdnav" href="#">About</a></li>
+            <li><a class="hoofdnav" href="#">Events</a></li>
+            <li><a class="hoofdnav" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </article>
+</header>
 
-    <main>
+<main>
+    <article>
+        <section id="socials">
+            <p><img id="icon1" src="images/phone-call.png" alt="">070-249-325</p>
+            <p><img id="icon1" src="images/email.png" alt="">quickboost@gmail.com</p>
+            <p><img id="icon1" src="images/pin.png" alt="">LA</p>
+        </section>
 
+        <section id="faq">
+            <p>FAQ</p>
+            <ul>
+                <li>Where is the event?<br>The locations differ per event. You can find this information under the tab "events".</li>
+                <li>Where can u get drinks?<br>At the bar you can get al sort of beverages.</li>
+                <li>What time does the event start?<br>Each event starts at a different time. You can find this information under the tab "events".</li>
+                <li>With what do you pay for a drink?<br>U can buy special coins to pay for your drinks.</li>
+                <li>Where can u get the tickets?<br>U can find the tickets under the tab "events".</li>
+            </ul>
 
-<article class="bigscreen">
-    <section id="container1">
-        <p><img id="icon1" src="images/phone-call.png" alt="">070-249-325</p>
-        <p><img id="icon1" src="images/email.png" alt="">quickboost@gmail.com</p>
-        <p><img id="icon1" src="images/pin.png" alt="">LA</p>
-            
-
-    </section>
-
-
-    <section id="container2">
-        <p>FAQ</p>
-        <ul>
-            <li>Where is the event?<br>The locations differ per event. You can find this information under the tab "events".</li>
-            <li>Where can u get drinks?<br>At the bar you can get al sort of beverages.</li>
-            <li>What time does the event start?<br>Each event starts at a different time. You can find this information under the tab "events".</li>
-            <li>With what do you pay for a drink?<br>U can buy special coins to pay for your drinks.</li>
-            <li>Where can u get the tickets?<br>U can find the tickets under the tab "events".</li>
-        </ul>
-
-    <section>
-            
-
-</article>
-
-
-
-<article class="tablet">
-   
-    <section id="container3">
-        <p>FAQ</p>
-        <ul>
-            <li>Where is the event?<br>The locations differ per event. You can find this information under the tab "events".</li>
-            <li>Where can u get drinks?<br>At the bar you can get al sort of beverages.</li>
-            <li>What time does the event start?<br>Each event starts at a different time. You can find this information under the tab "events".</li>
-            <li>With what do you pay for a drink?<br>U can buy special coins to pay for your drinks.</li>
-            <li>Where can u get the tickets?<br>U can find the tickets under the tab "events".</li>
-        </ul>
-
-    </section>
-            
-    <section id="container4">
-        <p><img id="icon1" src="images/phone-call.png" alt="">070-249-325</p>
-        <p><img id="icon1" src="images/email.png" alt="">quickboost@gmail.com</p>
-        <p><img id="icon1" src="images/pin.png" alt="">LA</p>
-            
-
-    </section>
-
-
-
-</article>
-
-<article class="tabletlandscape">
-
-    <section id="container5">
-        <p>FAQ</p>
-        <ul>
-            <li>Where is the event?<br>The locations differ per event. You can find this information under the tab "events".</li>
-            <li>Where can u get drinks?<br>At the bar you can get al sort of beverages.</li>
-            <li>What time does the event start?<br>Each event starts at a different time. You can find this information under the tab "events".</li>
-            <li>With what do you pay for a drink?<br>U can buy special coins to pay for your drinks.</li>
-            <li>Where can u get the tickets?<br>U can find the tickets under the tab "events".</li>
-        </ul>
-
-    </section>
-            
-    <section id="container6">
-        <p><img id="icon1" src="images/phone-call.png" alt="">070-249-325</p>
-        <p><img id="icon1" src="images/email.png" alt="">quickboost@gmail.com</p>
-        <p><img id="icon1" src="images/pin.png" alt="">LA</p>
-            
-
-    </section>
-
-
-</article>
-
-<article class="phone"> 
-
-    <section id="container7">
-        <p>FAQ</p>
-        <ul>
-            <li>Where is the event?<br>The locations differ per event. You can find this information under the tab "events".</li>
-            <li>Where can u get drinks?<br>At the bar you can get al sort of beverages.</li>
-            <li>What time does the event start?<br>Each event starts at a different time. You can find this information under the tab "events".</li>
-            <li>With what do you pay for a drink?<br>U can buy special coins to pay for your drinks.</li>
-            <li>Where can u get the tickets?<br>U can find the tickets under the tab "events".</li>
-        </ul>
-
-    </section>
-            
-    <section id="container8">
-        <p><img id="icon1" src="images/phone-call.png" alt="">070-249-325</p>
-        <p><img id="icon1" src="images/email.png" alt="">quickboost@gmail.com</p>
-        <p><img id="icon1" src="images/pin.png" alt="">LA</p>
-            
-
-    </section>
-
-</article>
-
-
-<article class="phonelandscape">
-
-    <section id="container9">
-        <p>FAQ</p>
-        <ul>
-            <li>Where is the event?<br>The locations differ per event. You can find this information under the tab "events".</li>
-            <li>Where can u get drinks?<br>At the bar you can get al sort of beverages.</li>
-            <li>What time does the event start?<br>Each event starts at a different time. You can find this information under the tab "events".</li>
-            <li>With what do you pay for a drink?<br>U can buy special coins to pay for your drinks.</li>
-            <li>Where can u get the tickets?<br>U can find the tickets under the tab "events".</li>
-        </ul>
-
-    </section>
-            
-    <section id="container10">
-        <p><img id="icon1" src="images/phone-call.png" alt="">070-249-325</p>
-        <p><img id="icon1" src="images/email.png" alt="">quickboost@gmail.com</p>
-        <p><img id="icon1" src="images/pin.png" alt="">LA</p>
-            
-
-    </section>
-
-</article>
-
-
-
-       
+        </section>
+    </article>    
 </main>
 
 <footer>

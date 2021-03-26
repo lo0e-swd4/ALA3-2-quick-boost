@@ -3,11 +3,28 @@
 }
 
 
+#slideShow{
+    position: absolute;
+    top: 230px;
+    left: 730px;
+    display: block;
+    height: 510px;
+    width: 700px;
+    border-style: solid;
+    border-color: white;   
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+}
 
 Body{
     display: block;
     background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
     width: 99%;
+    
 }
 
 .logo{
@@ -39,7 +56,8 @@ Body{
 }
 
 #menu{
-    display: block;
+    display: flex;
+    flex-direction: row;
     list-style: none;
     
 }
@@ -48,39 +66,29 @@ Body{
     display: block;
     width: 200px;
     height: 200px;
+    
 }
 
 .drieblikjes{
     display: block;
     position: relative;
-    left: -200px;
-    top: -200px;
+    left: -280px;
+    top: -150px;
     width: 1200px;
     height: 700px;
-
-}
-
-.images{
-    display: block;
-    position: relative;
-    top: 100px;
-    width: 900px;
-    height: 600px;
 }
 
 
 
 
 .hoofdnav {
-    display: block;
     position: relative;
-    top: -250px;
-    left: 700px;
-    padding-left: 80px;
+    left: 500px;
+    top: 28px;
+    padding-left: 40px;
     text-decoration: none;
     list-style: none;
-    float: left;
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     
     
@@ -286,7 +294,7 @@ and (orientation : portrait) {
         padding-left: 10px;
         text-decoration: none;
         list-style: none;
-        float: left;
+        
         font-size: 25px;
         color: white;
         
