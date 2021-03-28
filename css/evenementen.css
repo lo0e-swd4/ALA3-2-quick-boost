@@ -42,9 +42,9 @@ Body{
 
 
 .drake-img{
-  position: relative;
-  top: -60px;
-  left: -600px;
+  
+  margin-top: -100px;
+  margin-left: 150px;
   height: 600px;
   width: 500px;
   border-style: solid;
@@ -54,9 +54,10 @@ Body{
 
 
 #menu{
-  display: block;
+  display: flex;
+  flex-direction: row;
   list-style: none;
-
+  
 }
 
 .adblikjes{
@@ -87,23 +88,24 @@ Body{
 
 
 .hoofdnav {
-  display: block;
   position: relative;
+  left: 800px;
   top: -250px;
-  left: 700px;
-  padding-left: 80px;
+  padding-left: 40px;
   text-decoration: none;
   list-style: none;
-  float: left;
-  font-size: 35px;
+  font-size: 40px;
   color: white;
-
-
+  
+  
 }
 
 a:hover{
   text-decoration: underline;
 }
+
+
+
 
 
 

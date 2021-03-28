@@ -42,18 +42,23 @@
     }
     
     #menu{
-        list-style: none;
         display: flex;
-        padding-left: 400px;
-        padding-top: 30px;
+        flex-direction: row;
+        list-style: none;
+        
     }
     
     .hoofdnav {
-        padding-left: 80px;
+        position: relative;
+        left: 500px;
+        top: 28px;
+        padding-left: 40px;
         text-decoration: none;
         list-style: none;
         font-size: 40px;
         color: white;
+        
+        
     }
     
     a:hover{

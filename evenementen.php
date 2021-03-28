@@ -11,7 +11,6 @@
     	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
         <title>evenementen</title>
         <link rel="stylesheet" type="text/css" href="css/evenementen.css">
-        <script src="JS/home.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
