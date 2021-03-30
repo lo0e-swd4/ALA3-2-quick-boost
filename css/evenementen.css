@@ -22,7 +22,7 @@ Body{
 
   height: 50px;
   color: white;
-  margin-top: 10px;
+  margin-top: 300px;
   background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
   width: 101%;
   margin-left: -10px;
@@ -39,6 +39,7 @@ Body{
 }
 
 
+<<<<<<< HEAD
 .drake-img-box{
   margin-right: -10px;
   position: relative;
@@ -48,6 +49,16 @@ Body{
 .drake-img{
   height: 450px;
   width: 600px;
+=======
+
+
+.drake-img{
+  
+  margin-top: -100px;
+  margin-left: 150px;
+  height: 600px;
+  width: 500px;
+>>>>>>> bfbf019236b1b430f232e85eca21094b57cd0004
   border-style: solid;
   border-color: white;
 }
@@ -55,9 +66,10 @@ Body{
 
 
 #menu{
-  display: block;
+  display: flex;
+  flex-direction: row;
   list-style: none;
-
+  
 }
 
 .adblikjes{
@@ -88,23 +100,24 @@ Body{
 
 
 .hoofdnav {
-  display: block;
   position: relative;
+  left: 800px;
   top: -250px;
-  left: 700px;
-  padding-left: 80px;
+  padding-left: 40px;
   text-decoration: none;
   list-style: none;
-  float: left;
-  font-size: 35px;
+  font-size: 40px;
   color: white;
-
-
+  
+  
 }
 
 a:hover{
   text-decoration: underline;
 }
+
+
+
 
 
 

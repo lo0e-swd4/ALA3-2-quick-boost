@@ -11,7 +11,6 @@
     	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
         <title>evenementen</title>
         <link rel="stylesheet" type="text/css" href="css/evenementen.css">
-        <script src="JS/home.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
@@ -23,10 +22,10 @@
                 <article class="nav">
                     <nav>
                        <ul id="menu">
-                        <a class="hoofdnav" href="#"><li>Home</li></a>
+                        <a class="hoofdnav" href="index.php"><li>Home</li></a>
                         <a class="hoofdnav" href="#"><li>About</li></a>
-                        <a class="hoofdnav" href="#"><li>Events</li></a>
-                        <a class="hoofdnav" href="#"><li>Contact</li></a>
+                        <a class="hoofdnav" href="evenementen.php"><li>Events</li></a>
+                        <a class="hoofdnav" href="contact.php"><li>Contact</li></a>
                       
                       </ul>
                   </nav>
@@ -35,9 +34,13 @@
         </header>
 
         <main>
-            <article class="drake-img-box">
+            
             <img src="images/drake.png" class="drake-img">
+<<<<<<< HEAD
             </article>
+=======
+
+>>>>>>> bfbf019236b1b430f232e85eca21094b57cd0004
         </main>
                
         <footer>
