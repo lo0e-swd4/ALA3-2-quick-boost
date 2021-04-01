@@ -26,6 +26,7 @@
 
     <body>
         <header>
+        <a href="index.php">
          <img src="images/logo.png" class="logo">
          <nav>
                 <article class="nav">
