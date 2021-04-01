@@ -1,9 +1,9 @@
 
 <?php
-  $conn = new mysqli('localhost', 'root', '','energy');
+  $conn = new mysqli('localhost', 'root', 'root','energy');
   $sql = "SELECT titel, omschrijving, afbeelding FROM aanbiedingen;";
   $result = $conn->query($sql);
-  $aanbieding = $result->fetch_row();
+//   $aanbieding = $result->fetch_row();
   
 ?>
 <!doctype html>
