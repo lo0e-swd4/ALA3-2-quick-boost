@@ -36,7 +36,6 @@
         <main>
             
             <img src="images/drake.png" class="drake-img">
-            </article>
 
         </main>
                
