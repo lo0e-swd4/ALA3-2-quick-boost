@@ -36,11 +36,8 @@
         <main>
             
             <img src="images/drake.png" class="drake-img">
-<<<<<<< HEAD
             </article>
-=======
 
->>>>>>> bfbf019236b1b430f232e85eca21094b57cd0004
         </main>
                
         <footer>

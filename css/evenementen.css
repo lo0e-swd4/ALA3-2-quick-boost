@@ -39,17 +39,6 @@ Body{
 }
 
 
-<<<<<<< HEAD
-.drake-img-box{
-  margin-right: -10px;
-  position: relative;
-  height: 800px;
-}
-
-.drake-img{
-  height: 450px;
-  width: 600px;
-=======
 
 
 .drake-img{
@@ -58,7 +47,6 @@ Body{
   margin-left: 150px;
   height: 600px;
   width: 500px;
->>>>>>> bfbf019236b1b430f232e85eca21094b57cd0004
   border-style: solid;
   border-color: white;
 }
