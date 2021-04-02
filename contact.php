@@ -17,6 +17,7 @@
 <body>
   
 <header style="height: 150px;">
+<a href="index.php">
     <img src="images/logo.png" class="logo">
     <article class="nav">
         <nav>
