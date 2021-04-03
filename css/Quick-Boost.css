@@ -119,7 +119,7 @@ a:hover{
     
     .logo{
         display: block;
-        width: 120px;
+        width: 140px;
         height: 150px;
         position: relative;
         top: -50px;
@@ -137,9 +137,7 @@ a:hover{
     
     .footertekst{
         display: block;
-        position: absolute;
-        top: 690px;
-        margin-left: 10px;
+        position: relative;
         font-size: 12px;
         color:  white;
       
@@ -158,7 +156,12 @@ a:hover{
     }
     
     .drieblikjes{
-        display: none;
+        display: block;
+        position: relative;
+        top: -100px;
+        left: -175px;
+        width: 700px;
+        height: 500px;
     }
     
     .images{
@@ -175,9 +178,9 @@ a:hover{
     .hoofdnav {
         display: block;
         position: relative;
-        top: -150px;
-        left: 80px;
-        padding-left: 10px;
+        top: 0px;
+        left: -20px;
+        padding-left: 4px;
         text-decoration: none;
         list-style: none;
         float: left;
@@ -189,8 +192,21 @@ a:hover{
     
     a:hover{
         text-decoration: underline;
+        
     }
     
+    #slideShow{
+        position: absolute;
+        top: 670px;
+        left: 15px;
+        display: block;
+        height: 400px;
+        width: 340px;
+        border-style: solid;
+        border-color: white;   
+    }
+
+
 }
 
 /*landscape phone*/
@@ -201,11 +217,7 @@ a:hover{
 /*ipad landscape*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    Body{
-        display: block;
-        
-        width: 99%;
-    }
+    
     
 }
 
@@ -229,7 +241,7 @@ and (orientation : portrait) {
     .logo{
         display: block;
         width: 200px;
-        height: 200px;
+        height: 190px;
         position: relative;
         top: -50px;
     }
@@ -238,7 +250,7 @@ and (orientation : portrait) {
         
         height: 50px;
         color: white;
-        margin-top: 760px;
+        margin-top: 525px;
         background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
         width: 101%;
         margin-left: -10px;
@@ -246,10 +258,8 @@ and (orientation : portrait) {
     
     .footertekst{
         display: block;
-        position: absolute;
-        top: 1715px;
-        margin-left: 10px;
-        font-size: 15px;
+        position: relative;
+        font-size: 12px;
         color:  white;
       
     }
@@ -268,11 +278,11 @@ and (orientation : portrait) {
     
     .drieblikjes{
         display: block;
-    position: relative;
-    left: -190px;
-    top: -150px;
-    width: 1100px;
-    height: 700px;
+        position: relative;
+        top: -130px;
+        left: 0px;
+        width: 800px;
+        height: 600px;
     }
     
     .images{
@@ -289,13 +299,13 @@ and (orientation : portrait) {
     .hoofdnav {
         display: block;
         position: relative;
-        top: -180px;
-        left: 350px;
-        padding-left: 10px;
+        top: 10px;
+        left: 70px;
+        padding-left: 15px;
         text-decoration: none;
         list-style: none;
-        
-        font-size: 25px;
+        float: left;
+        font-size: 30px;
         color: white;
         
         
@@ -303,7 +313,17 @@ and (orientation : portrait) {
     
     a:hover{
         text-decoration: underline;
+        
     }
     
+    #slideShow{
+        position: absolute;
+        top: 670px;
+        left: 60px;
+        display: block;
+        height: 400px;
+        width: 650px;
+        border-style: solid;
+        border-color: white;   
+    }
 }
-

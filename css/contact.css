@@ -4,7 +4,7 @@
 
 
 /*bigscreen*/
-@media only screen and (min-width : 1024px) { 
+@media only screen and (min-width: 1024px)  { 
 
     body{
         background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
@@ -102,8 +102,8 @@
     
 }
 
-/*tablet*/
-@media only screen and (min-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+/*tablet landscape and portrait*/
+@media only screen and (min-width:768px) and (max-width:1024px){ 
 
     body{
         background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
@@ -144,15 +144,15 @@
     #menu{
         list-style: none;
         display: flex;
-        padding-left: 400px;
         padding-top: 30px;
+        padding-left: 0;
     }
     
     .hoofdnav {
-        padding-left: 80px;
+        padding-left: 25px;
         text-decoration: none;
         list-style: none;
-        font-size: 40px;
+        font-size: 30px;
         color: white;
     }
     
@@ -180,10 +180,11 @@
     #faq{  
         border: 4px solid white;
         color: white;
-        font-size: 25px;
+        font-size: 23px;
         font-weight: bolder;   
-        margin-left: 100px;
-        margin-bottom: 80px;
+        margin-left: 30px;
+        margin-bottom: 100px;
+        margin-right: 20px;
     }
     
     #faq p{
@@ -198,21 +199,290 @@
     
 }
 
-/*tablet landscape*/
-@media (min-width: 768px) and (max-width: 1024px) {
-
+/* tablet landscape (kan deze weg?)*/
+@media (min-width:768px) and (max-width:1024px) {
+    body{
+        background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
+        width: 99%;
+    }
     
+    .logo{
+        width: 300px;
+        height: 280px;
+        position: relative;
+        top: -70px;
+    }
+    
+    .footer{
+        height: 50px;
+        color: white;    
+        background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+        width: 101%;   
+        margin-left: -10px;
+    }
+    
+    .footer-text{
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 20px;
+      
+    }
+    
+    header  {
+        display: flex;
+    }
+
+    article{
+        display: flex;
+        
+    }
+    
+    #menu{
+        list-style: none;
+        display: flex;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    
+    .hoofdnav {
+        padding-left: 25px;
+        text-decoration: none;
+        list-style: none;
+        font-size: 30px;
+        color: white;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    #icon1{
+        width: 30px;
+    }
+      
+    #socials{
+        font-size: 25px; 
+        margin-left: 35px;
+    }
+    
+    #socials p{
+        font-weight: bolder;
+    }
+
+    #socials img{
+        padding-right: 10px;
+    }
+    
+    #faq{  
+        border: 4px solid white;
+        color: white;
+        font-size: 23px;
+        font-weight: bolder;   
+        margin-left: 30px;
+        margin-bottom: 100px;
+        margin-right: 20px;
+    }
+    
+    #faq p{
+        font-size: 30px;
+        text-align: center;
+    }
+
+   #faq ul {
+       margin-right: 10px;
+   }
+ 
 
 }
 
-/*phone*/
-@media screen and (max-width: 767px){
+/*phone EN tablet portrait*/
+@media screen and (max-width:768px){
+    body{
+        background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
+        width: 99%;
+    }
+    
+    .logo{
+        height: 140px;
+        position: relative;
+    }
+    
+    .footer{
+        height: 50px;
+        color: white;    
+        background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+        width: 101%;   
+        margin-left: -10px;
+    }
+    
+    .footer-text{
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 20px;
+      
+    }
+    
+    header  {
+        display: flex;
+    }
 
+    article{
+        display: flex;
+        
+    }
+    
+    #menu{
+        list-style: none;
+        display: flex;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    
+    .hoofdnav {
+        padding-left: 25px;
+        text-decoration: none;
+        list-style: none;
+        font-size: 22px;
+        color: white;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    #icon1{
+        width: 30px;
+    }
+      
+    #socials{
+        font-size: 25px; 
+        margin-left: 35px;
+    }
+    
+    #socials p{
+        font-weight: bolder;
+    }
+
+    #socials img{
+        padding-right: 10px;
+    }
+    
+    #faq{  
+        border: 4px solid white;
+        color: white;
+        font-size: 23px;
+        font-weight: bolder;   
+        margin-left: 30px;
+        margin-bottom: 100px;
+        margin-right: 20px;
+    }
+    
+    #faq p{
+        font-size: 30px;
+        text-align: center;
+    }
+
+   #faq ul {
+       margin-right: 10px;
+   }
+ 
+    
    
 }
 
-/*landscape phone*/
-@media (min-width : 319px) and (max-width: 480px){
+/*landscape phone (kan deze weg)*/
+@media (min-width : 375px) and (max-width:768px){
+    body{
+        background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
+        width: 99%;
+    }
+    
+    .logo{
+        width: 300px;
+        height: 280px;
+        position: relative;
+        top: -70px;
+    }
+    
+    .footer{
+        height: 50px;
+        color: white;    
+        background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+        width: 101%;   
+        margin-left: -10px;
+    }
+    
+    .footer-text{
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 20px;
+      
+    }
+    
+    header  {
+        display: flex;
+    }
+
+    article{
+        display: flex;
+        
+    }
+    
+    #menu{
+        list-style: none;
+        display: flex;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    
+    .hoofdnav {
+        padding-left: 25px;
+        text-decoration: none;
+        list-style: none;
+        font-size: 30px;
+        color: white;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    #icon1{
+        width: 30px;
+    }
+      
+    #socials{
+        font-size: 25px; 
+        margin-left: 35px;
+    }
+    
+    #socials p{
+        font-weight: bolder;
+    }
+
+    #socials img{
+        padding-right: 10px;
+    }
+    
+    #faq{  
+        border: 4px solid white;
+        color: white;
+        font-size: 23px;
+        font-weight: bolder;   
+        margin-left: 30px;
+        margin-bottom: 100px;
+        margin-right: 20px;
+    }
+    
+    #faq p{
+        font-size: 30px;
+        text-align: center;
+    }
+
+   #faq ul {
+       margin-right: 10px;
+   }
+ 
     
    
     
