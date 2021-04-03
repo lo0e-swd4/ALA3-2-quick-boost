@@ -38,19 +38,46 @@ Body{
 
 }
 
-
-
-
-.drake-img{
-  
-  margin-top: -100px;
-  margin-left: 150px;
-  height: 600px;
+.maps-img{
+  margin-bottom: 100px;
+  margin-left: 210px;
+  height: 500px;
   width: 500px;
   border-style: solid;
   border-color: white;
 }
 
+.drake-img{
+  margin-bottom: 100px;
+  margin-left: 250px;
+  height: 500px;
+  width: 500px;
+  border-style: solid;
+  border-color: white;
+}
+
+.drake-tekst{
+  height: 20vh;
+  margin-left: 1150px;
+  margin-bottom: -70px;
+  font-size: 35px;
+  color: white;
+}
+
+.info-tekst{
+  margin-left: 900px;
+  margin-bottom: 150px;
+  font-size: 17px;
+  color: white;
+}
+
+.locatie-tekst{
+  margin-left: 250px;
+  margin-top: -520px;
+  font-size: 17px;
+  color: white;
+  height: 20vh;
+}
 
 
 #menu{

@@ -34,9 +34,31 @@
         </header>
 
         <main>
+        <article class="drake-tekst">
+            <h1>
+                Drake
+            </h1>
+        </article>
             
+            <img src="images/maps.png" class="maps-img">
             <img src="images/drake.png" class="drake-img">
+        
+        <article class="info-tekst">
+            <h2>
+            <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
+            </p><p>pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+            <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, 
+            </p><p>arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><p>
+            Prijs: GRATIS</p>
+            </h2>
+        </article>
 
+        <article class="locatie-tekst">
+            <h2>
+                Locatie: Proosdijweg 41, 6714 AK Ede
+            </h2>
+        </article>
         </main>
                
         <footer>
