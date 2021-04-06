@@ -1,5 +1,6 @@
 *{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -13,17 +14,18 @@ Body{
 .logo{
     width: 300px;
     height: 280px;
-    position: relative;
-    top: -70px;
+    position: absolute;
+    top: -62px;
 }
 
 .footer{
+    position: relative;
     height: 50px;
     color: white;
-    
+    overflow-y: hidden;
     background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
     width: 101%;
-    margin-top: 596px;
+    margin-top: 1160px;
     margin-left: -10px;
 }
 
@@ -31,22 +33,23 @@ Body{
 
 
 .footertext {
-    position: absolute;
+    position: relative;
     margin-top: 10px;
+    margin-left: 20px;
 }
 
 
 .blikje2{
-    margin-left: 45vw;
+    margin-left: 35vw;
     position: absolute;
-    margin-top: -130px;
+    margin-top: 140px;
 }
 
 h1 {
     font-size: 4vh;
     margin-left: 30vw;
     position: absolute;
-    margin-top: -70px;
+    margin-top: 120px;
     color: white;
     position: absolute;
 
@@ -54,29 +57,30 @@ h1 {
 
 .circle {
     position: absolute;
-    margin-top: 10vw;
+    top: 900px;
     text-align: center;
-    margin-left: 23vw;
+    left: 250px
 }
 
 
 p{
     color: white;
-    margin-top: -15px;
+    margin-top: 0px;
+    margin-left: -50px;
 }
 
 .textmain1 {
-    margin-top: 1vw;
+    margin-top: 14vw;
     position: absolute;
     text-align: center;
-    margin-left: 18vw;
+    margin-left: 17vw;
     font-size: 20px;
 
 }
 
 
 main {
-    margin-top: -55px;
+    margin-top: 20px;
 }
 
 
@@ -84,24 +88,31 @@ main {
     display: flex;
     flex-direction: row;
     list-style: none;
-  
-  }
-  .hoofdnav {
+    margin-top: 42px;
+    margin-left: 800px;
+    
+}
+
+
+
+.hoofdnav {
     position: relative;
-    left: 1100px;
-    top: -250px;
-    padding-left: 41px;
+    padding-left: 40px;
+    top: 0px;
     text-decoration: none;
     list-style: none;
     font-size: 40px;
     color: white;
-  
-  
-  }
-  
-  a:hover{
+    z-index: 2;
+    
+    
+    
+    
+}
+
+a:hover{
     text-decoration: underline;
-  }
+}
 
 
 
