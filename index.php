@@ -34,7 +34,7 @@
                     <nav>
                        <ul id="menu">
                        <a class="hoofdnav" href="index.php"><li>Home</li></a>
-                        <a class="hoofdnav" href="#"><li>About</li></a>
+                        <a class="hoofdnav" href="about.php"><li>About</li></a>
                         <a class="hoofdnav" href="evenementen.php"><li>Events</li></a>
                         <a class="hoofdnav" href="contact.php"><li>Contact</li></a>
                       

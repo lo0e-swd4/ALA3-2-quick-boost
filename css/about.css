@@ -27,6 +27,9 @@ Body{
     margin-left: -10px;
 }
 
+
+
+
 .footertext {
     position: absolute;
     margin-top: 10px;
@@ -72,30 +75,33 @@ p{
 }
 
 
+main {
+    margin-top: -55px;
+}
+
 
 #menu{
+    display: flex;
+    flex-direction: row;
     list-style: none;
-    
-}
-
-.hoofdnav {
- 
+  
+  }
+  .hoofdnav {
     position: relative;
+    left: 1100px;
     top: -250px;
-    left: 1000px;
-    padding-left: 80px;
+    padding-left: 41px;
     text-decoration: none;
     list-style: none;
-    float: left;
-    font-size: 35px;
-    color: white;  
-}
-
-a:hover{
+    font-size: 40px;
+    color: white;
+  
+  
+  }
+  
+  a:hover{
     text-decoration: underline;
-}
-
-
+  }
 
 
 
@@ -119,7 +125,10 @@ a:hover{
         margin-top: 20px;
     }
 
-    
+    .nav {
+        margin-right: 100vw;
+    }
+
 
 
 
@@ -142,23 +151,21 @@ a:hover{
     }   
  
     .textmain {
-        margin-left: -5vw;
-        margin-top: -9vw;
-        position: absolute;
+        margin-left: -6vw;
+        margin-top: -17vw;
+        
     }
 
     p {
-        margin-top: 1px;
+        margin-top: 0px;
 
     }
     .textmain1 {
         text-align: center;
         font-size: 15px;
-        margin-top: -12vw;
+        margin-top: -4vw;
         position: absolute;
-        margin-left: 2vw;
-        
-
+        margin-left: 0vw;
         
     }
  
@@ -168,16 +175,22 @@ a:hover{
     }
     
     .footer {
-        margin-top: 50vw;
+        margin-top: 53vw;
     }
 
     .footertext {
         margin-top: 1px;
     }
 
-    nav {
-        
+    .circle {
+        display: none;
     }
+
+   .blikje2 {
+       display: none;
+   }
+
+
 
 
 
@@ -190,33 +203,65 @@ a:hover{
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)
-and (orientation : portrait) { 
+and (orientation : landscape) { 
 
-    #menu{
-        display: block;
-        list-style: none;
-        
-    }
-
-    .hoofdnav {
-        display: block;
-        position: relative;
-        bottom: -20px;
-        left: 70px;
-        padding-left: 15px;
-        text-decoration: none;
-        list-style: none;
-        float: left;
-        font-size: 30px;
-        color: white;
-        
-        
+    p {
+        margin-top: -1vw;
     }
     
-    a:hover{
-        text-decoration: underline;
-        
+    main {
+        margin-top: -170px;
     }
+
+    .textmain1 {
+        font-size: 10px;
+        margin-top: 0vw;
+        margin-left: 60px;
+    }
+
+    .textmain {
+        margin-left: -135px;
+        font-size: smaller;
+        position: absolute;
+        margin-top: 10px;
+    }
+
+        .footer {
+            margin-top: 160px;
+            position: absolute;
+        }
+
+        .footertext {
+            margin-top: 3px;
+            
+        }
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+
+    Body{
+   
+        background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
+        height: 0;
+        width: 99%;
+    }
+    
+
+        .textmain {
+            margin-left: 20px;
+        }
+
+        .textmain1 {
+            margin-left: -12px;
+        }
+
+        .footer {
+            margin-top: 1px;
+        }
+        
 
 
 
