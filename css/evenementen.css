@@ -144,6 +144,130 @@ a:hover{
 @media screen and (max-width: 767px){
 }
 
+Body{
+  display: block;
+  background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
+  width: 99%;
+}
+
+.logo{
+  width: 300px;
+  height: 280px;
+  position: relative;
+  top: -70px;
+}
+.footer{
+  height: 50px;
+  color: white;
+  margin-top: 300px;
+  background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+  width: 101%;
+  margin-left: -10px;
+}
+
+.footertext{
+  display: block;
+  position: absolute;
+  top: 40px;
+  margin-left: 15px;
+  font-size: 20px;
+  color: black;
+
+}
+
+.maps-img{
+  margin-bottom: 100px;
+  margin-left: 210px;
+  height: 500px;
+  width: 500px;
+  border-style: solid;
+  border-color: white;
+}
+
+.drake-img{
+  margin-bottom: 100px;
+  margin-left: 250px;
+  height: 500px;
+  width: 500px;
+  border-style: solid;
+  border-color: white;
+}
+
+.drake-tekst{
+  height: 20vh;
+  margin-left: 1150px;
+  margin-bottom: -70px;
+  font-size: 35px;
+  color: white;
+}
+
+.info-tekst{
+  margin-left: 900px;
+  margin-bottom: 150px;
+  font-size: 17px;
+  color: white;
+}
+
+.locatie-tekst{
+  margin-left: 250px;
+  margin-top: -520px;
+  font-size: 17px;
+  color: white;
+  height: 20vh;
+}
+
+
+#menu{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  
+}
+
+.adblikjes{
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.drieblikjes{
+  display: block;
+  position: relative;
+  left: -200px;
+  top: -200px;
+  width: 1200px;
+  height: 700px;
+
+}
+
+.images{
+  display: block;
+  position: relative;
+  top: 100px;
+  width: 900px;
+  height: 600px;
+}
+
+
+
+
+.hoofdnav {
+  position: relative;
+  left: 800px;
+  top: -250px;
+  padding-left: 40px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 40px;
+  color: white;
+  
+  
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
 /*landscape phone*/
 @media (min-width : 319px) and (max-width: 480px){
   
