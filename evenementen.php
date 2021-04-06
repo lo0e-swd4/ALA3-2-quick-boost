@@ -49,7 +49,7 @@
         </article>
 
         <article>
-            <img src="images/maps.png" class="maps-img">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2454.166023630367!2d5.64964051593684!3d52.04028907942086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c652b3f40ee749%3A0x371cce37db83f590!2sProosdijweg%2C%206714%20AK%20Ede!5e0!3m2!1snl!2snl!4v1616057576511!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="maps-img"></iframe>
         </article>
 
             <article class="info-tekst">
