@@ -192,8 +192,31 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) { 
 
+    #menu{
+        display: block;
+        list-style: none;
+        
+    }
 
-
+    .hoofdnav {
+        display: block;
+        position: relative;
+        bottom: -20px;
+        left: 70px;
+        padding-left: 15px;
+        text-decoration: none;
+        list-style: none;
+        float: left;
+        font-size: 30px;
+        color: white;
+        
+        
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        
+    }
 
 
 
