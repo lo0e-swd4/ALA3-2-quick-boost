@@ -15,16 +15,18 @@
     </head>
 
     <body>
-        <header>
+    <header>
+        <a href="index.php">
          <img src="images/logo.png" class="logo">
          <nav>
                 <article class="nav">
                     <nav>
                        <ul id="menu">
-                        <a class="hoofdnav" href="#"><li>Home</li></a>
-                        <a class="hoofdnav" href="#"><li>About</li></a>
-                        <a class="hoofdnav" href="#"><li>Events</li></a>
-                        <a class="hoofdnav" href="#"><li>Contact</li></a>
+                        <a class="hoofdnav" href="index.php"><li>Home</li></a>
+                        <a class="hoofdnav" href="about.php"><li>About</li></a>
+                        <a class="hoofdnav" href="evenementen.php"><li>Events</li></a>
+                        <a class="hoofdnav" href="contact.php"><li>Contact</li></a>
+
                       </ul>
                   </nav>
                </article>
@@ -65,7 +67,6 @@
              
     
         
-
 
 
 
