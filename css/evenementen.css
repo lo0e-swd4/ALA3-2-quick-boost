@@ -65,16 +65,16 @@ Body{
 }
 
 .info-tekst{
-  margin-right: -500px;
+  margin-left: 100px;
   margin-bottom: 150px;
-  font-size: 17px;
+  font-size: 14px;
   color: white;
 }
 
 .locatie-tekst{
   margin-left: 1250px;
-  margin-top: -400px;
-  font-size: 17px;
+  margin-top: -350px;
+  font-size: 14px;
   color: white;
   height: 20vh;
 }
