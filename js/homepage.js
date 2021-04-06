@@ -6,12 +6,12 @@ window.onload = function(){
     slideShow = document.getElementById('slideShow');
     slides = ['advertentie1.png', 'advertentie2.png', 'advertentie3.png'];
 
-    setInterval(showSlides, 1000);
+    setInterval(showSlides, 1500);
 
 }
 
 function showSlides(){
-    slideShow.style.backgroundImage = 'url(images/" + slides[count] + ")';
+    slideShow.style.backgroundImage = 'url(images/' + slides[count] + ')';
     if(count >= 2){
         count = 0;
     }else{
