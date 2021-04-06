@@ -43,20 +43,27 @@
                 Drake
             </h1>
         </article>
-            
-            <img src="images/maps.png" class="maps-img">
+
+        <article>
             <img src="images/drake.png" class="drake-img">
-        
-        <article class="info-tekst">
+        </article>
+
+        <article>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2454.166023630367!2d5.64964051593684!3d52.04028907942086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c652b3f40ee749%3A0x371cce37db83f590!2sProosdijweg%2C%206714%20AK%20Ede!5e0!3m2!1snl!2snl!4v1616057576511!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="maps-img"></iframe>
+        </article>
+
+            <article class="info-tekst">
             <h2>
             <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
-            </p><p>pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
-            <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, 
-            </p><p>arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p><p>
+            Het event vindt plaats in de zomer vakantie
+            </p><p>Tijdstip 13:00 t/m 21:00</p>
+            <p>Al het geld wat wordt besteed aan consumpties word naar een goed doel gebracht. 
+            </p><p>Artiesten: Drake.</p><p>
             Prijs: GRATIS</p>
             </h2>
         </article>
+
+        
 
         <article class="locatie-tekst">
             <h2>
