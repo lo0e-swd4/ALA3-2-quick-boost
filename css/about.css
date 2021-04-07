@@ -118,19 +118,65 @@ a:hover{
 
 
 
-@media (min-width : 319px) and (max-width: 480px) {
-
+@media screen and (max-width: 767px){
     .textmain1 {
         font-size: small;
-        margin-top: -15px;
+        margin-top: 100px;
     }
     
     .textmain {
-        margin-top: -20px;
-        margin-left: 60px;
+
+    position: absolute;
+    top: 300px;
     }
 
-    .logo {
+    .logo{
+        display: block;
+        width: 250px;
+        height: 150px;
+        position: absolute;
+        top: -60px;
+    }
+
+    .hoofdnav {
+        display: block;
+        position: relative;
+        top: 0px;
+        left: -40px;
+        padding-left: 5px;
+        text-decoration: none;
+        list-style: none;
+        float: left;
+        font-size: 15px;
+        color: white;
+        
+        
+        
+    }
+    
+    .footer{
+        
+        height: 50px;
+        color: white;
+        margin-top: 525px;
+        background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+        width: 101%;
+        margin-left: -10px;
+    }
+    
+    .footertekst{
+        display: block;
+        position: relative;
+        font-size: 12px;
+        color:  white;
+      
+    }
+    
+    #menu{
+        display: block;
+        list-style: none;
+        width: 400px;
+    }.logo {
         width: 120px;
         height: 150px;
         margin-top: 20px;
@@ -154,126 +200,3 @@ a:hover{
 
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    
- 
-    h1 {
-        font-size: 30px;
-    }   
- 
-    .textmain {
-        margin-left: -6vw;
-        margin-top: -17vw;
-        
-    }
-
-    p {
-        margin-top: 0px;
-
-    }
-    .textmain1 {
-        text-align: center;
-        font-size: 15px;
-        margin-top: -4vw;
-        position: absolute;
-        margin-left: 0vw;
-        
-    }
- 
-    .logo {
-        width: 160px;
-        height: 200px;
-    }
-    
-    .footer {
-        margin-top: 53vw;
-    }
-
-    .footertext {
-        margin-top: 1px;
-    }
-
-    .circle {
-        display: none;
-    }
-
-   .blikje2 {
-       display: none;
-   }
-
-
-
-
-
-}   
-   
-
-
-
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)
-and (orientation : landscape) { 
-
-    p {
-        margin-top: -1vw;
-    }
-    
-    main {
-        margin-top: -170px;
-    }
-
-    .textmain1 {
-        font-size: 10px;
-        margin-top: 0vw;
-        margin-left: 60px;
-    }
-
-    .textmain {
-        margin-left: -135px;
-        font-size: smaller;
-        position: absolute;
-        margin-top: 10px;
-    }
-
-        .footer {
-            margin-top: 160px;
-            position: absolute;
-        }
-
-        .footertext {
-            margin-top: 3px;
-            
-        }
-
-
-}
-
-@media screen and (max-width: 767px) {
-
-
-    Body{
-   
-        background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
-        height: 0;
-        width: 99%;
-    }
-    
-
-        .textmain {
-            margin-left: 20px;
-        }
-
-        .textmain1 {
-            margin-left: -12px;
-        }
-
-        .footer {
-            margin-top: 1px;
-        }
-        
-
-
-
-}
