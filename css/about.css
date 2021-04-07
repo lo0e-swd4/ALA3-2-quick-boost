@@ -118,26 +118,100 @@ a:hover{
 
 
 
-@media (min-width : 319px) and (max-width: 480px) {
-
+@media screen and (max-width: 767px){
     .textmain1 {
         font-size: small;
-        margin-top: -15px;
+        margin-top: -100px;
+        margin-left:30px;
     }
     
-    .textmain {
-        margin-top: -20px;
-        margin-left: 60px;
+    h1{
+        position: relative;
+        top: -100px;
+        left: 15px;
+        
+        
     }
 
-    .logo {
-        width: 120px;
+    
+    
+
+    .circle{display: none;}
+    
+    #menu{
+        display: block;
+        list-style: none;
+    }
+
+    .blikje2{
+        position: absolute;
+        left:-575px;
+        top: 500px;
+        height: 1000px;
+        width: 1000px;
+    }
+
+    .logo{
+        display: block;
+        width: 140px;
         height: 150px;
-        margin-top: 20px;
+        position: relative;
+        top: -50px;
     }
-
-    .nav {
-        margin-right: 100vw;
+    
+    .footer{
+        
+        height: 50px;
+        color: white;
+        margin-top: 1000px;
+        background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+        width: 101%;
+        margin-left: -10px;
+    }
+    
+    .footertekst{
+        display: block;
+        position: relative;
+        font-size: 12px;
+        color:  white;
+      
+    }
+    
+    #menu{
+        display: block;
+        list-style: none;
+        width: 400px;
+    }
+    
+  
+    
+    
+    
+    .hoofdnav {
+        display: block;
+        position: relative;
+        top: 0px;
+        left: -40px;
+        padding-left: 5px;
+        text-decoration: none;
+        list-style: none;
+        float: left;
+        font-size: 15px;
+        color: white;
+        
+        
+        
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        
+    }
+    
+    .nav{
+        position: absolute;
+        top: -20px;
+        left: -650px;
     }
 
 
@@ -151,129 +225,100 @@ a:hover{
 
 
 
-
-
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    
- 
-    h1 {
-        font-size: 30px;
-    }   
- 
-    .textmain {
-        margin-left: -6vw;
-        margin-top: -17vw;
-        
-    }
-
-    p {
-        margin-top: 0px;
-
-    }
-    .textmain1 {
-        text-align: center;
-        font-size: 15px;
-        margin-top: -4vw;
-        position: absolute;
-        margin-left: 0vw;
-        
-    }
- 
-    .logo {
-        width: 160px;
-        height: 200px;
-    }
-    
-    .footer {
-        margin-top: 53vw;
-    }
-
-    .footertext {
-        margin-top: 1px;
-    }
-
-    .circle {
-        display: none;
-    }
-
-   .blikje2 {
-       display: none;
-   }
-
-
-
-
-
-}   
-   
-
-
-
-
+/*tablet potrait*/
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)
-and (orientation : landscape) { 
-
-    p {
-        margin-top: -1vw;
+and (orientation : portrait) { 
+    *{
+        font-family: 'Roboto', sans-serif;
     }
     
-    main {
-        margin-top: -170px;
-    }
-
     .textmain1 {
-        font-size: 10px;
-        margin-top: 0vw;
-        margin-left: 60px;
+        
+        margin-top: -150px;
+        margin-left:100px;
     }
-
-    .textmain {
-        margin-left: -135px;
-        font-size: smaller;
+    
+    h1{
         position: absolute;
-        margin-top: 10px;
+        top: 70px;
+        left: 60px;
+        
+        
     }
-
-        .footer {
-            margin-top: 160px;
-            position: absolute;
-        }
-
-        .footertext {
-            margin-top: 3px;
-            
-        }
-
-
-}
-
-@media screen and (max-width: 767px) {
-
-
+    
     Body{
-   
+        display: block;
         background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
-        height: 0;
         width: 99%;
     }
     
-
-        .textmain {
-            margin-left: 20px;
-        }
-
-        .textmain1 {
-            margin-left: -12px;
-        }
-
-        .footer {
-            margin-top: 1px;
-        }
+    .logo{
+        display: block;
+        width: 200px;
+        height: 190px;
+        position: relative;
+        top: -50px;
+    }
+    
+    .footer{
         
+        height: 50px;
+        color: white;
+        margin-top: 1000px;
+        background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+        width: 101%;
+        margin-left: -10px;
+    }
+    
+    .footertekst{
+        display: block;
+        position: relative;
+        font-size: 12px;
+        color:  white;
+      
+    }
+    
+    #menu{
+        display: block;
+        list-style: none;
+        
+        
+    }
+    
+.circle{display: none;}
+    
+    
+    
+    
+    .hoofdnav {
+        display: block;
+        position: relative;
+        top: 100px;
+        left: 0px;
+        padding-left: 5px;
+        text-decoration: none;
+        list-style: none;
+        float: left;
+        font-size: 10px;
+        color: white;
+        
+        
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        
+    }
+   
 
-
-
+    .blikje2{
+        position: absolute;
+        top: 640px;
+        left: -525px;
+    }
+    
 }
+
+
