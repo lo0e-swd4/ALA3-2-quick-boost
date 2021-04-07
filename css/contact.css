@@ -24,6 +24,7 @@
         background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
         width: 101%;   
         margin-left: -10px;
+        margin-top: 100px;
     }
     
     .footer-text{
@@ -240,7 +241,8 @@
     }
     
     nav{
-        margin-left: 50px;
+        margin-top: -6px;
+        margin-left: 10px;
     }
 
     #menu{
