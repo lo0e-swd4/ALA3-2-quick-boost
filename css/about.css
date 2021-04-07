@@ -121,44 +121,49 @@ a:hover{
 @media screen and (max-width: 767px){
     .textmain1 {
         font-size: small;
-        margin-top: 100px;
+        margin-top: -100px;
+        margin-left:30px;
     }
     
-    .textmain {
+    h1{
+        position: relative;
+        top: -100px;
+        left: 15px;
+        
+        
+    }
 
-    position: absolute;
-    top: 300px;
+    
+    
+
+    .circle{display: none;}
+    
+    #menu{
+        display: block;
+        list-style: none;
+    }
+
+    .blikje2{
+        position: absolute;
+        left:-575px;
+        top: 500px;
+        height: 1000px;
+        width: 1000px;
     }
 
     .logo{
         display: block;
-        width: 250px;
+        width: 140px;
         height: 150px;
-        position: absolute;
-        top: -60px;
-    }
-
-    .hoofdnav {
-        display: block;
         position: relative;
-        top: 0px;
-        left: -40px;
-        padding-left: 5px;
-        text-decoration: none;
-        list-style: none;
-        float: left;
-        font-size: 15px;
-        color: white;
-        
-        
-        
+        top: -50px;
     }
     
     .footer{
         
         height: 50px;
         color: white;
-        margin-top: 525px;
+        margin-top: 1000px;
         background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
         width: 101%;
         margin-left: -10px;
@@ -176,14 +181,37 @@ a:hover{
         display: block;
         list-style: none;
         width: 400px;
-    }.logo {
-        width: 120px;
-        height: 150px;
-        margin-top: 20px;
     }
-
-    .nav {
-        margin-right: 100vw;
+    
+  
+    
+    
+    
+    .hoofdnav {
+        display: block;
+        position: relative;
+        top: 0px;
+        left: -40px;
+        padding-left: 5px;
+        text-decoration: none;
+        list-style: none;
+        float: left;
+        font-size: 15px;
+        color: white;
+        
+        
+        
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        
+    }
+    
+    .nav{
+        position: absolute;
+        top: -20px;
+        left: -650px;
     }
 
 
@@ -197,6 +225,100 @@ a:hover{
 
 
 
+/*tablet potrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation : portrait) { 
+    *{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .textmain1 {
+        
+        margin-top: -150px;
+        margin-left:100px;
+    }
+    
+    h1{
+        position: absolute;
+        top: 70px;
+        left: 60px;
+        
+        
+    }
+    
+    Body{
+        display: block;
+        background: linear-gradient(58deg, rgba(77,255,248,1) 21%, rgba(255,99,162,1) 61%); 
+        width: 99%;
+    }
+    
+    .logo{
+        display: block;
+        width: 200px;
+        height: 190px;
+        position: relative;
+        top: -50px;
+    }
+    
+    .footer{
+        
+        height: 50px;
+        color: white;
+        margin-top: 1000px;
+        background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
+        width: 101%;
+        margin-left: -10px;
+    }
+    
+    .footertekst{
+        display: block;
+        position: relative;
+        font-size: 12px;
+        color:  white;
+      
+    }
+    
+    #menu{
+        display: block;
+        list-style: none;
+        
+        
+    }
+    
+.circle{display: none;}
+    
+    
+    
+    
+    .hoofdnav {
+        display: block;
+        position: relative;
+        top: 100px;
+        left: 0px;
+        padding-left: 5px;
+        text-decoration: none;
+        list-style: none;
+        float: left;
+        font-size: 10px;
+        color: white;
+        
+        
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        
+    }
+   
 
+    .blikje2{
+        position: absolute;
+        top: 640px;
+        left: -525px;
+    }
+    
+}
 
 
