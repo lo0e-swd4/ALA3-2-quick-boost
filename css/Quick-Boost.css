@@ -5,13 +5,14 @@
 
 #slideShow{
     position: absolute;
-    top: 230px;
+    top: 270px;
     left: 730px;
     display: block;
-    height: 510px;
-    width: 700px;
+    height: 411px;
+    width: 720px;
     border-style: solid;
-    border-color: white;   
+    border-color: white;  
+    background-size: cover;  
 }
 
 
@@ -133,7 +134,7 @@ a:hover{
         
         height: 50px;
         color: white;
-        margin-top: 525px;
+        margin-top: 150px;
         background: linear-gradient(90deg, rgba(255,99,162,1) 49%, rgba(77,255,248,1) 50%);
         width: 101%;
         margin-left: -10px;
@@ -202,16 +203,7 @@ a:hover{
         
     }
     
-    #slideShow{
-        position: absolute;
-        top: 600px;
-        left: 15px;
-        display: block;
-        height: 400px;
-        width: 330px;
-        border-style: solid;
-        border-color: white;   
-    }
+    
 
 
 }
@@ -331,6 +323,7 @@ and (orientation : portrait) {
         height: 400px;
         width: 650px;
         border-style: solid;
-        border-color: white;   
+        border-color: white; 
+         
     }
 }

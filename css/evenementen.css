@@ -322,9 +322,9 @@ and (orientation : portrait) {
   }
   .hoofdnav {
     position: relative;
-    left: 150px;
+    left: 280px;
     top: -185px;
-    padding-left: 40px;
+    padding-left: 15px;
     text-decoration: none;
     list-style: none;
     font-size: 30px;
